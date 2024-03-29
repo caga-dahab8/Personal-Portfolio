@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/* -----------header--------- */
+
+header{
+    /* position: relative; */
+}
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0,0.1);
+    overflow: hidden;
+    position: fixed;
+    content: "";
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.header .logo h4{
+    color: black;
+}
+.header .logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+span{
+    color: #e74580ad;
+}
+.header .navs{
+    margin-right: 50px;
+}
+.header .navs a{
+    padding: 10px 10px 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+    &:hover{
+        border-bottom: 2px solid #e74580ad;
+    }
+}
+
+
+
+
+/* -----------Banner--------------- */
+Section{
+    padding: 70px 5em;
+    min-height: 100vh;
+}
+#banner{
+    background-color: #f2f8fb;
+}
+.banner{
+    display: flex;
+    height: calc(100vh-10vh);
+    padding: 20px;
+}
+
+.banner .content{
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 800;
+}
+.banner .content p{
+    margin: 10px 0 20px;
+}
+
+
+.banner .content .links a{
+    color: #e74580ad;
+    border: 1px solid #e74580ad;
+    padding-right: 10px;
+    padding: 4px 15px;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    margin-right: 10px;
+
+    &:hover{
+        color: #fff;
+    }
+}
+.banner .content .links a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e74580ad;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner .content .links a:hover span{
+    width: 100%;
+}
+
+
+.banner .img{
+    width: 450px;
+    height: 500px;
+    margin-left: 100px;
+}
+.banner .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #e74580ad,-5px -5px 15px #e74580ad;
+    cursor: pointer;
+
+    &:Hover{
+        box-shadow: 15px 15px 15px #e74580ad,-15px -15px 15px #e74580ad;
+        margin-top: -10px;
+    }
+}
+
+
+
+
+/* ------------BIo------------------ */
+#Bio{
+    background-color: #faf3f6;
+}
+
+.box-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.aboutME .img{
+    flex: 0 1 30%;
+}
+.aboutME .text{
+    flex: 0 1 60%;
+    background-color: #f2f8fb;
+    height: 300px;
+    margin-top: 85px;
+    padding: 0 2em;
+    /* color: #fff; */
+    border-radius: 0 50px 50px 0;
+    content: "";
+    display: table;
+    box-shadow: .5px .5px 1px #959595,-.5px -.5px 1px #959595;
+}
+.aboutME .img img{
+    width: 100%;
+}
+.aboutME .text h1{
+    margin-top: 20px;
+    color: #e74580ad;
+}
+.aboutME .text p{
+    margin: 20px 0;
+}
+
+.aboutME .text a{
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #444;
+    background-color: antiquewhite;
+
+    &:Hover{
+        box-shadow: 2px 2px 5px #959595;
+        letter-spacing: .5em;
+    }
+}
+
+
+
+/* ------------------Skill------------------ */
+#Skill{
+    background-color: #f2f8fb;
+}
+
+.Skills .box-container .box{
+    flex-basis: 30%;
+    margin: 1.6%;
+    border: 5px solid #e74580ad;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: 5px 5px 99px #e74580ad;
+    }
+}
+
+.Skills .box-container .box:nth-child(2){
+    border: 5px solid orangered;
+    border-radius: 5px;
+    padding: 10px;
+    
+    &:hover{
+        box-shadow: 5px 5px 99px orangered;
+    }
+}
+
+.Skills .box-container .box:last-child{
+    border: 5px solid orange;
+    padding: 10px;
+
+    &:hover{
+        box-shadow: 5px 5px 99px orange;
+    }
+}
+
+.Skills .box-container .box img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+.Skills .box-container .box h4{
+    font-size: 1.5em;
+    color: #e74580ad;
+}
+.Skills .box-container .box p{
+    font-size: 0.9em;
+}
+
+
+
+/* --------Projects-------- */
+#Projects{
+    background-color: #faf3f6;
+}
+.Projects .box-container .box{
+    flex-basis: 30%;
+    margin: 1.6%;
+
+    &:Hover{
+        margin-top: -5px;
+        cursor: pointer;
+        
+    }
+}
+
+.Projects .box-container .box img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+    &:hover{
+        box-shadow: 5px 5px 12px #e74580ad,-5px -5px 12px #e74580ad;
+    }
+}
+
+
+/* --------contact------------ */
+
+.contactus .box-container{
+    background-color: #f2f8fb;
+    padding: 20px;
+    margin-top: -5px;
+}
+.contactus .box{
+    flex-basis: 48%;
+}
+.contactus h1{
+    margin-bottom: 40px;
+    font-weight: 900;
+    color: #e74580ad;
+}
+.contactus .box-container .box div{
+    display: flex;
+    align-items: center;
+}
+.contactus .box div .fa{
+    font-size: 28px;
+    color: #e74580ad;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contactus .box input, .box textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+.contactus .box .btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0.5px solid #e74580ad;
+    &:hover{
+        background-color: #e74580ad;
+        color: #fff;
+    }
+}
+
+.socialmedia{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.socialmedia div{
+    margin-right: 20px;
+}
