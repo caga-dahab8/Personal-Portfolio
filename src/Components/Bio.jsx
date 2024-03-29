@@ -1,4 +1,5 @@
 import React from 'react'
+import me from "../assets/suleiman.jpeg"
 
 export default function Bio() {
   return (
@@ -6,7 +7,7 @@ export default function Bio() {
       <div className='aboutME'>
           <div className="box-container">
               <div className="img">
-              <img src="./public/suleiman.jpeg" alt="Me" />
+              <img src={me} alt="Me" />
               </div>
 
               <div className="text">

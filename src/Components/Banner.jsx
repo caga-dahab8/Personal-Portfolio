@@ -1,4 +1,6 @@
 import React from "react";
+import banner from "../assets/suleiman.jpeg"
+
 const Banner=()=>{
     return(
         <section id="banner">
@@ -13,7 +15,7 @@ const Banner=()=>{
                     </div>
                 </div>
                 <div className="img">
-                    <img src="../../public/suleiman.jpeg" alt="Me" />
+                    <img src={banner} alt="Me" />
                 </div>
             </div>
         </section>
