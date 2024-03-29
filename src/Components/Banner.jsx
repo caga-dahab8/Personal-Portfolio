@@ -13,7 +13,7 @@ const Banner=()=>{
                     </div>
                 </div>
                 <div className="img">
-                    <img src="./public/suleiman.jpeg" alt="Me" />
+                    <img src="../../public/suleiman.jpeg" alt="Me" />
                 </div>
             </div>
         </section>
