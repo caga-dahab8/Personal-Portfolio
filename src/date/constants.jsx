@@ -368,7 +368,7 @@ export const Bio = {
       date: "Oct 2024",
       description:
         "E-commerce platform for electronic products with shopping cart, payment integration, and order management system.",
-      image: "/public/images/nafis.png",
+      image: "/public/nafis.png",
       tags: [
         "Flutter",
         "Nodejs",
