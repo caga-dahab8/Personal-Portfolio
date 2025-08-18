@@ -5,7 +5,7 @@ export const Bio = {
       "Flutter Developer",
       "UI/UX Designer",
       "Programmer",
-      "Networking",
+      "Basic Networking",
     ],
     description:
       "I am a motivated and proactive person, always willing to take on new challenges. With a passion for learning, I am committed to delivering high quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great results,.",
