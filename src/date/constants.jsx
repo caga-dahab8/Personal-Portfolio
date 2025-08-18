@@ -209,7 +209,7 @@ export const Bio = {
       img: "https://th.bing.com/th/id/R.b5c8b509945e3495b6e231c9d1e63793?rik=m9FWxAoyV57ZWQ&riu=http%3a%2f%2fsomdirectory.so%2fwp-content%2fuploads%2f2017%2f05%2fjamhuuriya.jpg&ehk=S1p%2bo0Y4X1YPx%2bWJXqu7cFFIfyXUqgeIJ8hmAisfkuo%3d&risl=&pid=ImgRaw&r=0",
       school: "Jamhuriya University of Science and Technology (JUST)",
       date: "Oct 2021 - Sep 2025",
-      grade: "90",
+      grade: "91",
       desc: " I am currently pursuing a Bachelor's degree in Computer Appplication and Engineering at jamhuriya unversity and technology, somalia. I have completed 5 semesters a. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student .",
       degree: "Bachelor of Technology - BTech, Computer Application",
     },
