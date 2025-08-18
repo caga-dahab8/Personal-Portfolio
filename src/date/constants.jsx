@@ -223,7 +223,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "/src/images/hoygaXamar.jpeg",
+      img: "/hoygaXamar.jpeg",
       school: "Hoyga Xamar",
       date: "Apr 2013 - Apr 2021",
       grade: "76%",
@@ -242,13 +242,13 @@ export const Bio = {
       date: "Dec 2024",
       description:
         "A comprehensive hospital management web application that streamlines patient registration, appointment scheduling, and medical record management for healthcare facilities.",
-      image: "/src/images/Images of my Applications/HospitalWeb.png",
+      image: "/HospitalWeb.png",
       tags: [
         "React",
         "Node.js",
         "MongoDB",
         "Express",
-        "CSS3"
+        "CSS"
       ],
       category: "web app",
     },
@@ -259,7 +259,7 @@ export const Bio = {
       date: "Nov 2024",
       description:
         "Modern hotel booking platform with room availability, reservation management, and payment integration for seamless guest experience.",
-      image: "/src/images/Images of my Applications/HotelWebsite.png",
+      image: "/HotelWebsite.png",
       tags: [
         "React",
         "JavaScript",
@@ -276,7 +276,7 @@ export const Bio = {
       date: "Oct 2024",
       description:
         "Productivity application for task organization, project tracking, and team collaboration with intuitive user interface and real-time updates.",
-      image: "/src/images/Images of my Applications/TaskApp.png",
+      image: "/TaskApp.png",
       tags: [
         "React",
         "Node.js",
@@ -291,7 +291,7 @@ export const Bio = {
       date: "Sep 2024",
       description:
         "Administrative dashboard for university management including student enrollment, course management, and academic performance tracking.",
-      image: "/src/images/Images of my Applications/UniversityDashboard.png",
+      image: "/UniversityDashboard.png",
       tags: [
         "React",
         "Node.js",
@@ -306,7 +306,7 @@ export const Bio = {
       date: "Aug 2024",
       description:
         "Complete student registration system built with ASP.NET for managing university admissions, course enrollment, and student records.",
-      image: "/src/images/Images of my Applications/UniversityRegisterationSystem for Asp.Net.png",
+      image: "/UniversityRegisterationSystem for Asp.Net.png",
       tags: [
         "ASP.NET",
         "C#",
@@ -323,7 +323,7 @@ export const Bio = {
       date: "Jul 2024",
       description:
         "Health and wellness mobile application for tracking daily water consumption with reminders and progress visualization.",
-      image: "/src/images/water.png",
+      image: "/water.png",
       tags: [
         "Flutter",
       ],
@@ -336,7 +336,7 @@ export const Bio = {
       date: "Jun 2024",
       description:
         "Personal finance management application for budget tracking, expense categorization, and financial goal setting.",
-      image: "/src/images/badget.png",
+      image: "/badget.png",
       tags: [
         "Springboot",
         "Postgress DB",
@@ -351,7 +351,7 @@ export const Bio = {
       date: "May 2024",
       description:
         "Modern blogging platform with rich text editor, user authentication, and social features for content creators.",
-      image: "/src/images/blogup.png",
+      image: "/blogup.png",
       tags: [
         "React",
         "Node.js",
