@@ -371,7 +371,7 @@ export const Bio = {
       image: "/nafis.png",
       tags: [
         "Flutter",
-        "Nodejs",
+        "Node.js",
         "mongoDB"
       ],
       category: "mobile app",
