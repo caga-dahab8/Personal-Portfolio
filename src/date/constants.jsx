@@ -11,7 +11,7 @@ export const Bio = {
       "I am a motivated and proactive person, always willing to take on new challenges. With a passion for learning, I am committed to delivering high quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great results,.",
     github: "https://github.com/caga-dahab8",
     resume:
-      "#",
+      "/Suleiman_Sidow_CV.pdf",
     twitter: "#",
     Whats: "#",
     facebook: "#",
