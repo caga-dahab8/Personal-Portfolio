@@ -210,7 +210,7 @@ export const Bio = {
       school: "Jamhuriya University of Science and Technology (JUST)",
       date: "Oct 2021 - Sep 2025",
       grade: "90%",
-      desc: " I am currently pursuing a Bachelor's degree in Computer Appplication and Engineering at jamhuriya unversity and technology, somalia. I have completed 5 semesters a. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student .",
+      desc: " I have a Bachelor degree in Computer Application at Jamhuriya Unversity and Technology. I have completed 8 semesters . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student .",
       degree: "Bachelor of Technology - BTech, Computer Application",
     },
     {
