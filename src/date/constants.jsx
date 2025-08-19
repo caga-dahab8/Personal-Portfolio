@@ -166,42 +166,40 @@ export const Bio = {
   ];
   
   export const experiences = [
-    {
-      id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "DevOps & Fullstack Engineering Internet",
-      company: "Flipr Inovations Pvt. Ltd.",
-      date: "Jan 2023 - July 2023",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-      skills: [
-       
-        "JavaScript",
-        "TypeScript",
-        "Node Js",
-     
-      ],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-    },
-    {
-      id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
-      date: "June 2024 - not persent",
-      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-    },
-   
-  ];
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/projects.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    role: "Fullstack Developer (Personal Project)",
+    company: "Self-Initiated Project",
+    date: "Jan 2023 - July 2023",
+    desc: "Built and deployed a fullstack web platform as a personal learning project. Focused on backend development with Node.js, implemented REST APIs, and automated deployments using CI/CD pipelines.",
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "CI/CD",
+      "Automation"
+    ],
+    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/frontend.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    role: "Frontend Developer (Freelance/Project)",
+    company: "Self-Initiated Project",
+    date: "June 2024 - Dec 2024",
+    desc: "Developed a web application frontend with ReactJS, Redux, and Material UI. Designed responsive user interfaces, managed state effectively, and integrated APIs for dynamic content.",
+    skills: [
+      "ReactJS",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+];
+
   
   export const education = [
     {
