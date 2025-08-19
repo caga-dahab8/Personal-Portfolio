@@ -171,7 +171,7 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
       role: "DevOps & Fullstack Engineering Internet",
       company: "Flipr Inovations Pvt. Ltd.",
-      date: "Aug 2023 - July 2023",
+      date: "Jan 2023 - July 2023",
       desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
       skills: [
        
